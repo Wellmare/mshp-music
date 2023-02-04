@@ -1,0 +1,8 @@
+.card {
+    /* max-width: 40rem; */
+    margin-right: 2rem;
+    padding: 0;
+}
+.card:hover {
+    outline: 4px solid #fc0;
+}
