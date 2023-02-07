@@ -1,0 +1,1 @@
+renderAlbums();

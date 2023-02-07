@@ -18,6 +18,11 @@
 		/>
 		<link rel="stylesheet" href="./css/header.css" />
 		<link rel="stylesheet" href="./css/index.css" />
+
+		<script defer src="./data.js"></script>
+		<script defer src="./js/main/renderAlbum.js"></script>
+		<script defer src="./js/main/renderAlbums.js"></script>
+		<script defer src="./js/main/index.js"></script>
 	</head>
 
 	<body>
@@ -67,6 +72,7 @@
 							</form>
 						</li>
 					</ul>
+					
 
 					<span class="badge bg-primary badge-gradient me-2 p-2"
 						>Плюс</span
@@ -111,8 +117,8 @@
 		<main>
 			<div class="container">
 				<h3 class="mb-3">Альбомы</h3>
-				<div class="row row-cols-2 row-cols-lg-4">
-					<div class="col mr-5">
+				<div class="row row-cols-2 row-cols-lg-4" id="albums">
+					<!-- <div class="col mr-5">
 						<a href="./album.html" class="text-decoration-none">
 							<div class="card">
 								<img
@@ -152,7 +158,9 @@
 									alt="Альбом"
 								/>
 								<div class="card-body">
-									<p class="card-text text-black">Пока красишься</p>
+									<p class="card-text text-black">
+										Пока красишься
+									</p>
 								</div>
 							</div>
 						</a>
@@ -166,11 +174,13 @@
 									alt="Альбом"
 								/>
 								<div class="card-body">
-									<p class="card-text text-black">Для чего-то</p>
+									<p class="card-text text-black">
+										Для чего-то
+									</p>
 								</div>
 							</div>
 						</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</main>

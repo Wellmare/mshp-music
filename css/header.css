@@ -23,6 +23,7 @@ header .nav-link:active {
 
 input[type="search"] {
     border: none;
+    border-bottom: 2px solid gainsboro;
 }
 
 .badge-gradient {
